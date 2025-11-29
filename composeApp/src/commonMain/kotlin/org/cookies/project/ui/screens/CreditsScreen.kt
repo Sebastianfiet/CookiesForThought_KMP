@@ -79,7 +79,7 @@ fun CreditsScreen(onBack: () -> Unit, padding: PaddingValues) {
                         style = MaterialTheme.typography.titleMedium
                     )
                 }
-                Text("- Sebastián Belalcázar Vivas")
+                Text("- Sebastián Belalcázar Vivas ⚡")
                 Text("- Yulieth Gabriela Jaramillo Yela")
             }
         }
