@@ -125,7 +125,7 @@ class AppState(
     }
 
     init {
-        // Mantener logros sincronizados con las estadísticas
+        // Mantener logros sincronizados con las estadísticas.
         scope.launch {
             cookiesRepository.stats.collect { stats ->
                 achievementsRepository.updateForStats(stats)

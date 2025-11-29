@@ -30,7 +30,7 @@ in your IDE’s toolbar or run it directly from the terminal:
   ```shell
   ./gradlew :composeApp:run
   ```
-- on Windows
+- on Windows 10
   ```shell
   .\gradlew.bat :composeApp:run
   ```
