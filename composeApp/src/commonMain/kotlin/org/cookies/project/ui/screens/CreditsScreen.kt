@@ -52,9 +52,9 @@ fun CreditsScreen(onBack: () -> Unit, padding: PaddingValues) {
                     )
                 }
                 Text(
-                    text = "Cookies For Thought es una app de enfoque que convierte tus minutos de concentración en recompensas. " +
-                            "Elige un modo de concentración y gana galletas que reflejan tu constancia. Incluye tienda de mejoras, " +
-                            "consejos prácticos y estadísticas de progreso.",
+                    text = "Cookies For Thought KMP es una aplicación de concentración multiplataforma que convierte tus minutos de concentración en recompensas. " +
+                            "Elige un modo de concentración y gana galletas que reflejan tu dedicación. Incluye tienda de mejoras, " +
+                            "consejos prácticos y estadísticas de progreso. ¿Qué esperas para ser más productivo?",
                     style = MaterialTheme.typography.bodySmall
                 )
             }
@@ -80,7 +80,7 @@ fun CreditsScreen(onBack: () -> Unit, padding: PaddingValues) {
                     )
                 }
                 Text("- Sebastián Belalcázar Vivas ⚡")
-                Text("- Yulieth Gabriela Jaramillo Yela")
+                Text("- Yulieth Gabriela Jaramillo Yela ★")
             }
         }
 
