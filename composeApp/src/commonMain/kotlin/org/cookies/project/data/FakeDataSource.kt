@@ -91,28 +91,28 @@ object FakeDataSource {
 
         Achievement(
             id = "sessions_1",
-            title = "Primera sesión",
+            title = "Concentration Goals I",
             description = "Completa tu primera sesión de concentración.",
             type = AchievementType.SESSIONS_COMPLETED,
             target = 1
         ),
         Achievement(
             id = "sessions_5",
-            title = "Concentration Goal I",
+            title = "Concentration Goal II",
             description = "Completa 5 sesiones.",
             type = AchievementType.SESSIONS_COMPLETED,
             target = 5
         ),
         Achievement(
             id = "sessions_10",
-            title = "Concentration Goal II",
+            title = "Concentration Goal III",
             description = "Completa 10 sesiones.",
             type = AchievementType.SESSIONS_COMPLETED,
             target = 10
         ),
         Achievement(
             id = "sessions_25",
-            title = "Concentration Goal III",
+            title = "Concentration Goal IV",
             description = "Completa 25 sesiones.",
             type = AchievementType.SESSIONS_COMPLETED,
             target = 25
@@ -127,7 +127,7 @@ object FakeDataSource {
         ),
         Achievement(
             id = "long_60",
-            title = "Flux Capacitor",
+            title = "Time Traveler",
             description = "Completa una sesión de al menos 60 minutos.",
             type = AchievementType.LONGEST_SESSION,
             target = 60
