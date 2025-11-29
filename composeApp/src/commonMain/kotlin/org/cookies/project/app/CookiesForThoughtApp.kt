@@ -31,7 +31,7 @@ fun CookiesForThoughtApp(app: AppState) {
             AnimatedContent(
                 targetState = app.currentScreen,
                 transitionSpec = {
-                    // Siempre entra desde la derecha y sale hacia la izquierda
+                    // Siempre entra desde la derecha y sale hacia la izquierda.
                     (slideInHorizontally { fullWidth -> fullWidth } + fadeIn())
                         .togetherWith(
                             slideOutHorizontally { fullWidth -> -fullWidth } + fadeOut()

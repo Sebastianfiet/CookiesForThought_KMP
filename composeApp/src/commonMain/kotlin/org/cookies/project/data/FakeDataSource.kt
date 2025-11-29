@@ -14,7 +14,7 @@ object FakeDataSource {
     )
 
     fun defaultTips(): List<Tip> = listOf(
-        // Técnicas de concentración (10)
+        // Técnicas de concentración
         Tip("focus1", TipCategory.FOCUS_TECHNIQUES,
             "Respira 4-7-8 durante un minuto antes de empezar.", 0),
         Tip("focus2", TipCategory.FOCUS_TECHNIQUES,
@@ -36,7 +36,7 @@ object FakeDataSource {
         Tip("focus10", TipCategory.FOCUS_TECHNIQUES,
             "Cierra pestañas y apps que no aporten a la sesión actual.", 100_000),
 
-        // Manejo del tiempo (10)
+        // Manejo del tiempo
         Tip("time1", TipCategory.TIME_MANAGEMENT,
             "Empieza el día con la tarea más importante.", 0),
         Tip("time2", TipCategory.TIME_MANAGEMENT,
