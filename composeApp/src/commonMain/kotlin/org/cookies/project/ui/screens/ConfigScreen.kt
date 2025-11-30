@@ -18,7 +18,7 @@ import org.cookies.project.app.AppState
 @Composable
 fun ConfigScreen(app: AppState, padding: PaddingValues) {
     val settings by app.settings.collectAsState()
-
+//funciona?
     Column(
         modifier = Modifier
             .fillMaxSize()
