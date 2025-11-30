@@ -15,7 +15,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.getValue
 import org.cookies.project.app.AppState
-
 @Composable
 fun ConfigScreen(app: AppState, padding: PaddingValues) {
     val settings by app.settings.collectAsState()
