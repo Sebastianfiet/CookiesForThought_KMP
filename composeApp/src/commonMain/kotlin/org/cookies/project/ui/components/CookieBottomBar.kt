@@ -21,6 +21,7 @@ private data class BottomNavItem(
     val icon: ImageVector
 )
 
+
 @Composable
 fun CookieBottomBar(appState: AppState) {
     val items = listOf(
